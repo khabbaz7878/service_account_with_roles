@@ -8,10 +8,7 @@ variable "student_emails" {
   ]
 }
 
-# Get current project ID
-data "google_project" "project" {
-  project_id = "my-project-id"
-}
+
 
 # Grant IAM permission to each student email
 resource "google_project_iam_member" "instance_admin" {
