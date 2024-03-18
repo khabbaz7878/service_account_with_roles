@@ -14,7 +14,7 @@ variable "student_emails" {
 resource "google_project_iam_member" "instance_admin" {
   count = length(var.student_emails)
 
-  project = "my-project"
+  project = "myproject"
   role    = "roles/compute.instanceAdmin"
   member  = "user:${var.student_emails[count.index]}"
 }
