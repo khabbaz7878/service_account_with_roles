@@ -1,0 +1,2 @@
+project_id = "serviceaccount-417700"
+ci_role = ["jaimeh26@gmail.com","philippe.redston@gmail.com"]
