@@ -4,7 +4,7 @@ variable "student_emails" {
   default = [
     "jaimeh26@gmail.com",
     "husni.khabbaz@gmail.com",
-    "student3@example.com"
+    "philippe.redston@gmail.com"
   ]
 }
 
